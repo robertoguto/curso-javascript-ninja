@@ -57,7 +57,7 @@ pessoa.andar = function (metrosCaminhados) {
     this.andando = true;
 };
 
-pessoa.andar(10);
+pessoa.andar(10); //Eu faço isso se eu for mudar outro valor do obejetor quando for chamado o novo obejeto ou seja pessoa.andar quando chamada muda pessoa.andando e pessoacaminhaQuantosMetros
 
 console.log(pessoa.caminhouQuantosMetros, pessoa.andando);
 /*
