@@ -85,45 +85,45 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     "Não temos o equivalente hexadecimal para [COR]."
 */
 
-function convertToHex(Cor) {
+function convertToHex(cor) {
     var hexaVermelho = "#ff0000";
     var hexaAzul = "#0000ff";
     var hexaAmarelo = "#ffff00";
     var hexaVerde = "#008000";
     var hexaPreto = "#000";
-    switch (Cor) {
+    switch (cor) {
         case "vermelho":
-            return `O hexadecimal para a cor ${Cor} é ${hexaVermelho}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaVermelho}.`;
             break;
         case "Vermelho":
-            return `O hexadecimal para a cor ${Cor} é ${hexaVermelho}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaVermelho}.`;
             break;
         case "azul":
-            return `O hexadecimal para a cor ${Cor} é ${hexaAzul}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaAzul}.`;
             break;
         case "Azul":
-            return `O hexadecimal para a cor ${Cor} é ${hexaAzul}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaAzul}.`;
             break;
         case "amarelo":
-            return `O hexadecimal para a cor ${Cor} é ${hexaAmarelo}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaAmarelo}.`;
             break;
         case "Amarelo":
-            return `O hexadecimal para a cor ${Cor} é ${hexaAmarelo}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaAmarelo}.`;
             break;
         case "verde":
-            return `O hexadecimal para a cor ${Cor} é ${hexaVerde}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaVerde}.`;
             break;
         case "Verde":
-            return `O hexadecimal para a cor ${Cor} é ${hexaVerde}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaVerde}.`;
             break;
         case "preto":
-            return `O hexadecimal para a cor ${Cor} é ${hexaPreto}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaPreto}.`;
             break;
         case "Preto":
-            return `O hexadecimal para a cor ${Cor} é ${hexaPreto}.`;
+            return `O hexadecimal para a cor ${cor} é ${hexaPreto}.`;
             break;
         default:
-            return `Não temos o equivalente hexadecimal para a cor ${Cor}.`;
+            return `Não temos o equivalente hexadecimal para a cor ${cor}.`;
             break;
     }
 }
